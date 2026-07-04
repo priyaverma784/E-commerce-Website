@@ -115,7 +115,7 @@ export default function HeroSection() {
 
           {/* Floating Responsive Products */}
           <motion.div 
-            className="absolute left-[-1%] top-[-1%] w-[28%] h-[28%] z-30"
+            className="absolute left-[-6%] top-[-1%] w-[38%] h-[38%] z-30"
             initial={{ scale: 0, opacity: 0 }}
             animate={{ scale: 1, opacity: 1, y: [0, -10, 0] }}
             transition={{ 
@@ -128,7 +128,7 @@ export default function HeroSection() {
           </motion.div>
 
           <motion.div 
-            className="absolute right-[-14%] top-[-4%] w-[34%] h-[34%] z-30"
+            className="absolute right-[-20%] top-[-8%] w-[44%] h-[44%] z-30"
             initial={{ scale: 0, opacity: 0 }}
             animate={{ scale: 1, opacity: 1, y: [0, 12, 0] }}
             transition={{ 
@@ -141,7 +141,7 @@ export default function HeroSection() {
           </motion.div>
 
           <motion.div 
-            className="absolute left-[-15%] bottom-[4%] w-[30%] h-[30%] z-30"
+            className="absolute left-[-15%] bottom-[4%] w-[40%] h-[40%] z-30"
             initial={{ scale: 0, opacity: 0 }}
             animate={{ scale: 1, opacity: 1, y: [0, 8, 0] }}
             transition={{ 
@@ -154,7 +154,7 @@ export default function HeroSection() {
           </motion.div>
 
           <motion.div 
-            className="absolute right-[-12%] bottom-[6%] w-[30%] h-[30%] z-30"
+            className="absolute right-[-18%] bottom-[-5%] w-[45%] h-[45%] z-30"
             initial={{ scale: 0, opacity: 0 }}
             animate={{ scale: 1, opacity: 1, y: [0, -12, 0] }}
             transition={{ 
